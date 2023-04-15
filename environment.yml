@@ -4,5 +4,8 @@ channels:
   - pypi
 dependencies:
   - black
+  - coloredlogs=15.0.*
   - flake8
   - python=3.9.*
+  - pip:
+    - bleak=0.20*
