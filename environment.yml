@@ -5,6 +5,7 @@ channels:
 dependencies:
   - black
   - coloredlogs=15.0.*
+  - click=8.1.*
   - flake8
   - python=3.9.*
   - pip:

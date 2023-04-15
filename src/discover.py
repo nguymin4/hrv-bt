@@ -2,11 +2,8 @@ import asyncio
 from bleak import BleakScanner
 from bleak.backends.device import BLEDevice
 from bleak.backends.scanner import AdvertisementData
-from .logging import logger
-
-
-# https://www.bluetooth.com/specifications/assigned-numbers/
-HEART_RATE_SERVICE_ASSIGNED_NUM = "0000180d"
+from .util.constants import HEART_RATE_SERVICE_ASSIGNED_NUM
+from .util.logging import logger
 
 
 async def main():
