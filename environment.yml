@@ -1,0 +1,8 @@
+name: hrv-kyto
+channels:
+  - conda-forge
+  - pypi
+dependencies:
+  - black
+  - flake8
+  - python=3.9.*
