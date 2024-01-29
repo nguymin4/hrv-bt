@@ -1,4 +1,4 @@
-name: hrv-kyto
+name: hrv-bt
 channels:
   - conda-forge
   - pypi

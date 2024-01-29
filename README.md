@@ -1,6 +1,6 @@
-# HRV KYTO
+# HRV BT
 
-Extract HRV data from KYTO device via bluetooth
+Extract HRV data from devices via bluetooth
 
 
 ## Installation
@@ -17,7 +17,7 @@ mamba env create -f environment.yml
 
 ```bash
 # Activate environment
-mamba activate hrv-kyto
+mamba activate hrv-bt
 ```
 
 ### Discover bluetooth devices for heart rate measurement
